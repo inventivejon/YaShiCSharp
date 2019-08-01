@@ -1,0 +1,4 @@
+[submodule "SSH.NET.Core"]
+	path = SSH.NET.Core
+	url = https://github.com/inventivejon/SSH.NET.Core.git
+	branch = develop
