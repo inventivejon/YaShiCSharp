@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29111.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCSharpSSHShell", "SimpleCSharpSSHShell\SimpleCSharpSSHShell.csproj", "{C5850432-7A1B-4FB8-8E5A-0CF965FC53BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renci.SshNet.NETCore", "..\SSH.NET.Core.Slim\src\Renci.SshNet.NETCore\Renci.SshNet.NETCore.csproj", "{CCABDAD4-4BAB-4C07-BFA6-A0277237DA1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5850432-7A1B-4FB8-8E5A-0CF965FC53BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5850432-7A1B-4FB8-8E5A-0CF965FC53BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5850432-7A1B-4FB8-8E5A-0CF965FC53BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5850432-7A1B-4FB8-8E5A-0CF965FC53BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCABDAD4-4BAB-4C07-BFA6-A0277237DA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCABDAD4-4BAB-4C07-BFA6-A0277237DA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCABDAD4-4BAB-4C07-BFA6-A0277237DA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCABDAD4-4BAB-4C07-BFA6-A0277237DA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D096EBFB-16FC-4DF5-BC31-129F064900EC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ManyConsole.CommandLineUtils" Version="1.1.8-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SSH.NET.Core.Slim\src\Renci.SshNet.NETCore\Renci.SshNet.NETCore.csproj" />
+  </ItemGroup>
+</Project>
